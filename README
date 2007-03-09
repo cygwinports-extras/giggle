@@ -1,0 +1,76 @@
+giggle
+------------------------------------------
+A GTK+ frontend to git.
+
+Runtime requirements:
+  cygwin-1.5.24-2
+  gdk-pixbuf2-2.10.9-1
+  git
+  glib2-2.12.9-1
+  gtk2-x11-2.10.9-1
+  gtksourceview-1.8.3-1
+  libcairo2-1.2.6-1
+  libglade2-2.6.0-1
+  libintl8-0.15-1
+  pango-1.14.10-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.24-2
+  autoconf2.5-2.61-1
+  automake1.9-1.9.6-2
+  binutils-20060817-1
+  cygport-0.2.10-1
+  gawk-3.1.5-4
+  gcc-core-3.4.4-3
+  intltool-0.35.4-1
+  libtool1.5-1.5.23a-2
+  make-3.81-1
+  pkg-config-0.21-1
+  sed-4.1.5-2
+
+Canonical website:
+  http://developer.imendio.com/projects/giggle
+
+Canonical download:
+  http://ftp.imendio.com/pub/imendio/giggle/src/
+
+-------------------------------------------
+
+Build instructions:
+  unpack giggle-0.1-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./giggle-0.1-X.cygport all
+
+This will create:
+  /usr/src/giggle-0.1-X-src.tar.bz2
+  /usr/src/giggle-0.1-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/giggle.exe
+  /usr/share/applications/giggle.desktop
+  /usr/share/doc/Cygwin/giggle-0.1.README
+  /usr/share/doc/giggle-0.1/AUTHORS
+  /usr/share/doc/giggle-0.1/COPYING
+  /usr/share/doc/giggle-0.1/INSTALL
+  /usr/share/doc/giggle-0.1/README
+  /usr/share/giggle/glade/main-window.glade
+  /usr/share/locale/de/LC_MESSAGES/giggle.mo
+  /usr/share/locale/es/LC_MESSAGES/giggle.mo
+  /usr/share/locale/sv/LC_MESSAGES/giggle.mo
+
+------------------
+
+Port Notes:
+
+----- version 0.1-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

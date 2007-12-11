@@ -1,4 +1,4 @@
 category: Devel Gnome
-requires: cygwin git gdk-pixbuf2 glib2 gtk2-x11 gtksourceview libcairo2 libglade2 libintl8 pango
+requires: cygwin git glib2 gtk2-x11 gtksourceview2 libcairo2 libglade2 libintl8 pango
 sdesc: "GTK+ git repository frontend"
 ldesc: "GTK+ git repository frontend"

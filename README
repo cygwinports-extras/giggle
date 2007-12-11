@@ -4,15 +4,14 @@ A GTK+ frontend to git.
 
 Runtime requirements:
   cygwin-1.5.24-2
-  gdk-pixbuf2-2.10.14-1
   git
-  glib2-2.12.13-1
-  gtk2-x11-2.10.14-1
-  gtksourceview-1.8.3-1
-  libcairo2-1.4.10-1
-  libglade2-2.6.1-1
+  glib2-2.14.4-1
+  gtk2-x11-2.12.2-1
+  gtksourceview2-2.0.2-1
+  libcairo2-1.4.12-1
+  libglade2-2.6.2-1
   libintl8-0.15-1
-  pango-1.16.5-1
+  pango-1.18.3-1
 
 Build requirements:
 (besides corresponding -devel packages)
@@ -20,10 +19,10 @@ Build requirements:
   autoconf2.5-2.61-1
   automake1.9-1.9.6-2
   binutils-20060817-1
-  cygport-0.3.5-1
+  cygport-0.3.7-1
   gawk-3.1.5-4
   gcc-core-3.4.4-3
-  intltool-0.35.5-1
+  intltool-0.36.2-1
   libtool1.5-1.5.23a-2
   make-3.81-1
   pkg-config-0.21-1
@@ -52,23 +51,37 @@ This will create:
 
 Files included in the binary package:
 
+  /etc/postinstall/giggle.sh
+  /usr/bin/cyggiggle-0-4.dll
   /usr/bin/giggle.exe
+  /usr/lib/libgiggle.dll.a
+  /usr/lib/libgiggle.la
   /usr/share/applications/giggle.desktop
-  /usr/share/doc/Cygwin/giggle-0.3.README
-  /usr/share/doc/giggle-0.3/AUTHORS
-  /usr/share/doc/giggle-0.3/COPYING
-  /usr/share/doc/giggle-0.3/INSTALL
-  /usr/share/doc/giggle-0.3/README
+  /usr/share/doc/giggle-0.4/AUTHORS
+  /usr/share/doc/giggle-0.4/COPYING
+  /usr/share/doc/giggle-0.4/INSTALL
+  /usr/share/doc/giggle-0.4/NEWS
+  /usr/share/doc/giggle-0.4/README
   /usr/share/giggle/glade/main-window.glade
+  /usr/share/icons/hicolor/16x16/apps/giggle.png
+  /usr/share/icons/hicolor/22x22/apps/giggle.png
+  /usr/share/icons/hicolor/32x32/apps/giggle.png
+  /usr/share/icons/hicolor/48x48/apps/giggle.png
+  /usr/share/icons/hicolor/scalable/apps/giggle.svg
   /usr/share/locale/ca/LC_MESSAGES/giggle.mo
   /usr/share/locale/de/LC_MESSAGES/giggle.mo
   /usr/share/locale/es/LC_MESSAGES/giggle.mo
+  /usr/share/locale/fr/LC_MESSAGES/giggle.mo
   /usr/share/locale/pl/LC_MESSAGES/giggle.mo
   /usr/share/locale/sv/LC_MESSAGES/giggle.mo
+  /usr/share/locale/vi/LC_MESSAGES/giggle.mo
 
 ------------------
 
 Port Notes:
+
+----- version 0.4-1 -----
+Version bump.
 
 ----- version 0.3-1 -----
 Version bump.

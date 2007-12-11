@@ -1,0 +1,5 @@
+inherit gnome2
+
+DESCRIPTION="GNOME git repository frontend"
+HOMEPAGE="http://developer.imendio.com/projects/giggle"
+SRC_URI="http://ftp.imendio.com/pub/imendio/${PN}/src/${P}.tar.gz"

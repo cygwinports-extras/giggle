@@ -1,0 +1,6 @@
+inherit gnome2
+
+DESCRIPTION="GNOME git GUI"
+HOMEPAGE="http://live.gnome.org/giggle"
+
+PATCH_URI="0.4.91-no-undefined.patch"

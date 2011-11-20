@@ -4,3 +4,5 @@ DESCRIPTION="GNOME git GUI"
 HOMEPAGE="http://live.gnome.org/giggle"
 
 PATCH_URI="0.4.95-no-undefined.patch"
+
+CYGCONF_ARGS="--enable-evolution-data-server"

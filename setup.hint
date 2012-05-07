@@ -1,5 +1,5 @@
 category: Devel Gnome
-requires: git libcairo2 libebook1.2_12 libgdk_pixbuf2.0_0 libglib2.0_0 libgtk3_0 libgtksourceview3.0_0 libintl8 libpango1.0_0 libvte2.90_9
+requires: git libcairo2 libebook1.2_13 libgdk_pixbuf2.0_0 libglib2.0_0 libgtk3_0 libgtksourceview3.0_0 libintl8 libpango1.0_0 libvte2.90_9
 sdesc: "GTK+ Git GUI"
 ldesc: "Giggle is a Gtk frontend to the git directory tracker. With 
 Giggle you will be able to visualize and browse easily the revision 

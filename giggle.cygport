@@ -1,0 +1,19 @@
+inherit gnome2
+
+NAME="giggle"
+VERSION=0.6.2
+RELEASE=1
+CATEGORY="Devel GNOME"
+SUMMARY="GTK+ Git GUI"
+DESCRIPTION="Giggle is a Gtk frontend to the git directory tracker. With Giggle
+you will be able to visualize and browse easily the revision tree, view changed
+files and differences between revisions, visualize summarized info for the
+project, commit changes and other useful tasks for any git managed projects
+contributor."
+REQUIRES="git"
+HOMEPAGE="http://live.gnome.org/giggle"
+
+PATCH_URI="0.4.95-no-undefined.patch
+           0.6.2-eds36.patch"
+
+CYGCONF_ARGS="--enable-evolution-data-server"

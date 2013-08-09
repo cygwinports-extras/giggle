@@ -1,0 +1,20 @@
+--- origsrc/giggle-0.7/src/giggle-diff-view.c	2012-11-01 00:29:01.000000000 -0500
++++ src/giggle-0.7/src/giggle-diff-view.c	2013-08-09 01:21:08.091725700 -0500
+@@ -27,6 +27,7 @@
+ #include <libgiggle-git/giggle-git-diff.h>
+ 
+ #include <glib/gi18n.h>
++#include <gtksourceview/gtksourcebuffer.h>
+ #include <string.h>
+ 
+ typedef struct GiggleDiffViewPriv GiggleDiffViewPriv;
+--- origsrc/giggle-0.7/src/giggle-view-file.c	2012-11-01 00:29:01.000000000 -0500
++++ src/giggle-0.7/src/giggle-view-file.c	2013-08-09 01:21:24.150644200 -0500
+@@ -39,6 +39,7 @@
+ #include <glib/gi18n.h>
+ 
+ #include <gtksourceview/gtksourcelanguagemanager.h>
++#include <gtksourceview/gtksourcebuffer.h>
+ #include <gtksourceview/gtksourceview.h>
+ 
+ #define GIGGLE_TYPE_VIEW_FILE_SNAPSHOT            (giggle_view_file_snapshot_get_type ())
